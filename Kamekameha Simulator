@@ -93,7 +93,7 @@ MainTab:AddToggle({
         if isLoopingPower then
             loopConnection2 = game:GetService("RunService").Heartbeat:Connect(function()
                 claimPower()
-                wait()
+                wait(3)
             end)
             OrionLib:MakeNotification({
                 Name = "Started",
