@@ -22,7 +22,7 @@ end
 local function claimPower()
     local args = {
         [1] = "Power",
-        [2] = 30e10
+        [2] = 15e10
     }
     game:GetService("ReplicatedStorage").Remotes.AddWheelSpinValue:FireServer(unpack(args))
 end
